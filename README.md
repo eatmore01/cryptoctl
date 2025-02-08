@@ -39,21 +39,22 @@ go build -o cryptoctl main.go && sudo mv cryptoctl /usr/local/bin/
 
 #### Install a binary from releases
 
+##### for macos
 ```bash
-curl -L <> -o cryptoctl
+curl -L https://github.com/eatmore01/cryptoctl/releases/download/v1.0.0/cryptoctl_darwin_amd64 -o cryptoctl
 chmod +x cryptoctl
 sudo mv cryptoctl /usr/local/bin/
 ```
 
-#### Install a binary from releases for Linux
+##### for linux 
 
 ```bash
-curl -L <> -o cryptoctl
+curl -L https://github.com/eatmore01/cryptoctl/releases/download/v1.0.0/cryptoctl_linux_amd64 -o cryptoctl
 chmod +x cryptoctl
 sudo mv cryptoctl /usr/local/bin/
 ```
 
-#### Install a binary from releases for Windows manualy from here [here]()
+#### Install a binary from releases for Windows manualy from here [here](https://github.com/eatmore01/cryptoctl/releases/tag/v1.0.0)
 
 
 
